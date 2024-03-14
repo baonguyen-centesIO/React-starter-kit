@@ -7,7 +7,8 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'eslint-config-prettier',
     'prettier',
-    'plugin:storybook/recommended'
+    'plugin:storybook/recommended',
+    'eslint-plugin-astro'
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts'],
   parser: '@typescript-eslint/parser',
